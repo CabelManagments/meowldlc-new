@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "meowldlc",
+  "version": "${version}",
+  "name": "MeowlDLC",
+  "description": "Клиентский мод для Fabric 1.21.4",
+  "authors": [
+    "EbaKrytoiChel_ik"
+  ],
+  "contact": {},
+  "license": "ARR",
+  "icon": "assets/meowldlc/textures/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "CheatMod"
+    ]
+  },
+  "mixins": [
+    "meowldlc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
